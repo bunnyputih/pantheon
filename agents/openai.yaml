@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pantheon"
+  short_description: "Humanize AI drafts with grounded authorial voice"
+  default_prompt: "Use $humanize-ai-writing to revise this AI-assisted draft in my natural voice."
