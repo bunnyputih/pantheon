@@ -17,7 +17,7 @@
   <img src="assets/pantheon-resume-demo-v7.svg" width="900" alt="Animated comparison of a generic AI resume bullet and a specific Pantheon-assisted bullet based on supplied work details.">
 </p>
 
-> **A five-second resume demo:** Pantheon does not invent achievements. It asks for—or works from—real details, then turns them into a stronger, more readable career story.
+> **A five-second resume demo:** Pantheon does not invent achievements. It asks for, or works from, real details, then turns them into a stronger, more readable career story.
 
 ## How Pantheon works
 
@@ -30,7 +30,7 @@ It starts with the evidence you already have, then improves the writing around i
 | A resume or a few work-history notes | Clarifies actions, scope, and proof without making up results. |
 | A job description | Matches confirmed experience to the role's real requirements. |
 | An old bullet that sounds generic | Rewrites it in direct, professional language that still means the same thing. |
-| A missing result or metric | Asks one useful question—or leaves the claim modest and truthful. |
+| A missing result or metric | Asks one useful question, or leaves the claim modest and truthful. |
 
 ## Use it naturally
 
@@ -61,7 +61,7 @@ No audience form. No voice worksheet. No magic wording. If a job post is availab
 
 > Created a shared hand-off template for a six-person support team, incorporating feedback from the evening shift.
 
-The second version is stronger because it is specific—and it does not pretend there is a metric or outcome the applicant never provided.
+The second version is stronger because it is specific, and it does not pretend there is a metric or outcome the applicant never provided.
 
 ## What Pantheon improves
 
@@ -141,7 +141,7 @@ Confirm it is ready:
 openclaw skills list
 ```
 
-Look for `humanize-ai-writing`. Start a new conversation, paste your resume, and ask naturally—for example, “Make these bullets clear and truthful for a customer-success role.”
+Look for `humanize-ai-writing`. Start a new conversation, paste your resume, and ask naturally. For example, “Make these bullets clear and truthful for a customer-success role.”
 
 To install only in the current workspace, remove `--global`. See the official [OpenClaw Skills guide](https://github.com/openclaw/openclaw/blob/main/docs/tools/skills.md) for advanced workspace settings.
 
