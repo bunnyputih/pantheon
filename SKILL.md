@@ -52,7 +52,9 @@ Make each resume bullet earn its space. Prefer a concrete action, the real objec
 
 Write with direct, professional language that sounds like a person describing real work. Cut inflated importance, vague impact, decorative transitions, and template conclusions. Keep industry terms when they are precise and relevant.
 
-Review a cluster—not an isolated word—of phrases such as `leverage`, `robust`, `transformative`, `pivotal`, `landscape`, or `multifaceted`. Replace them only with a more exact fact, relationship, action, or nothing at all.
+Do not use em dashes. Use a full stop, comma, colon, or parentheses when needed.
+
+Review a cluster of phrases, not an isolated word, such as `leverage`, `robust`, `transformative`, `pivotal`, `landscape`, or `multifaceted`. Replace them only with a more exact fact, relationship, action, or nothing at all.
 
 ### 5. Handle gaps without guessing
 
@@ -82,6 +84,7 @@ Before delivering, verify that the document:
 - contains no fake metrics, credentials, or confidence;
 - makes the applicant's contribution, scope, and evidence legible;
 - avoids empty traits, keyword stuffing, and repetitive AI-style phrasing;
+- does not use em dashes;
 - remains appropriate for the applicant's target, policy constraints, and privacy needs.
 
 ## Response format
