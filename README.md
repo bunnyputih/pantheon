@@ -9,8 +9,14 @@
   <a href="#the-pantheon-promise">The promise</a> ·
   <a href="#try-it-in-one-message">Try it</a> ·
   <a href="#install">Install</a> ·
+  <a href="#openclaw-step-by-step">OpenClaw</a> ·
+  <a href="#hermes-agent-step-by-step">Hermes</a> ·
   <a href="#the-research-behind-it">Research</a>
 </p>
+
+![Animated comparison: a generic answer to “Why do you like coffee?” beside a Pantheon-assisted answer based on an author-supplied detail.](assets/pantheon-coffee-demo.gif)
+
+> **A 5-second demo:** Pantheon does not invent a personality or promise detector evasion. It asks for a real detail, then uses that detail to make the writing more specific and useful.
 
 > **Pantheon does not make writing “less detectable.” It makes authorship more present.**
 >
@@ -82,6 +88,8 @@ facts, or certainty that I did not provide. Explain any substantive change.
 
 ## Install
 
+Choose one route: the universal command below for several tools, or the dedicated **OpenClaw** and **Hermes Agent** guides if you use one of those tools only.
+
 ### One command for every supported tool
 
 Works with **Codex, Claude Code, Hermes Agent, and OpenClaw**. Open a terminal, paste this command, then press Enter:
@@ -125,7 +133,7 @@ npx skills add bunnyputih/pantheon --skill humanize-ai-writing --global --agent 
 | --- | --- | --- |
 | Codex | `~/.codex/skills/` | `C:/Users/YourName/.codex/skills/` |
 | Claude Code | `~/.claude/skills/` | `C:/Users/YourName/.claude/skills/` |
-| Hermes Agent | `~/.hermes/skills/` | `C:/Users/YourName/.hermes/skills/` |
+| Hermes Agent | `~/.hermes/skills/` | `C:/Users/YourName/AppData/Local/hermes/skills/` |
 | OpenClaw | `~/.openclaw/skills/` | `C:/Users/YourName/.openclaw/skills/` |
 
 On a Mac, press **Command + Shift + G** in Finder, paste the folder path, then press Enter. On Windows, paste the path into File Explorer’s address bar and replace `YourName` with your account name.
@@ -138,13 +146,66 @@ humanize-ai-writing/SKILL.md
 
 </details>
 
-Pantheon uses the open-source [Skills CLI](https://github.com/vercel-labs/skills) for the command-line install. For OpenClaw’s native Git installer, use:
+Pantheon uses the open-source [Skills CLI](https://github.com/vercel-labs/skills) for the universal command-line install.
+
+### OpenClaw, step by step
+
+Use this native method when Pantheon should be available to every local OpenClaw agent on this computer.
 
 ```bash
 openclaw skills install git:bunnyputih/pantheon@main --global
 ```
 
-Git installs are not tracked by `openclaw skills update`; rerun that command when you want the latest version. For Skills CLI installs, use:
+1. Open a terminal on the machine running OpenClaw and paste the command above.
+2. Confirm the skill is ready:
+
+   ```bash
+   openclaw skills list
+   ```
+
+   Look for `humanize-ai-writing`.
+
+3. Start a new OpenClaw conversation (or send `/new`), then try:
+
+   ```text
+   /humanize-ai-writing Revise this message for clarity and natural voice. Preserve every fact and do not invent details.
+   ```
+
+`--global` installs the skill into OpenClaw’s shared skills folder, so all local agents can use it. To install only for the current workspace, remove `--global`. If a multi-agent setup uses an explicit skills allowlist, add `humanize-ai-writing` to that agent’s allowed skills.
+
+Git installs are intentionally not tracked by `openclaw skills update`; run the same Git command again whenever you want a newer Pantheon version. See the official [OpenClaw Skills guide](https://github.com/openclaw/openclaw/blob/main/docs/tools/skills.md) for advanced workspace and agent settings.
+
+### Hermes Agent, step by step
+
+If Hermes Agent is not installed yet, use its [official installation guide](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/). Then open a terminal and run:
+
+```bash
+hermes skills install https://raw.githubusercontent.com/bunnyputih/pantheon/main/SKILL.md
+```
+
+This native Hermes command installs Pantheon, including the research reference files it uses.
+
+1. Confirm it appears in Hermes:
+
+   ```bash
+   hermes skills list
+   ```
+
+   Look for `humanize-ai-writing`.
+
+2. Start a new Hermes session (or run `/reset` in chat), then use Pantheon directly:
+
+   ```text
+   /humanize-ai-writing Make this announcement sound like me. Keep the facts and give me a short explanation of any substantive edit.
+   ```
+
+3. To make a just-installed skill available in the current session, add `--now` to the install command. To check for future upstream changes, run `hermes skills check`, then `hermes skills update` when Hermes reports an update.
+
+Hermes stores skills in `~/.hermes/skills/` on macOS, Linux, and WSL. Native Windows Hermes stores them in `%LOCALAPPDATA%\hermes\skills\`. Read the official [Hermes Skills guide](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/) for more options.
+
+### Keep Pantheon up to date
+
+For Skills CLI installs, use:
 
 ```bash
 npx skills update humanize-ai-writing --global
