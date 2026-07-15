@@ -1,112 +1,182 @@
 # Pantheon
 
-> A research-grounded skill for turning AI-assisted drafts into writing that is accurate, personal, and appropriate for its reader.
+<p align="center">
+  <strong>Your voice, better formed.</strong><br>
+  An evidence-guided skill for turning AI-assisted drafts into writing that sounds considered, specific, and recognizably yours.
+</p>
 
-Pantheon helps an AI assistant revise text that feels generic, robotic, overly polished, or unlike its author. It is built around a simple rule: **make the writing more genuinely yours, not merely different.**
+<p align="center">
+  <a href="#the-pantheon-promise">The promise</a> ·
+  <a href="#try-it-in-one-message">Try it</a> ·
+  <a href="#install">Install</a> ·
+  <a href="#the-research-behind-it">Research</a>
+</p>
 
-It uses a 140-paper research corpus (20 papers for every year from 2020–2026) to guide practical editing. The skill protects facts, quotations, citations, required terminology, and the writer's real viewpoint while improving clarity, rhythm, reasoning, and reader fit.
+> **Pantheon does not make writing “less detectable.” It makes authorship more present.**
+>
+> Bring the facts, judgment, examples, and rough edges that belong to you. Pantheon helps an AI assistant shape them into clear, credible prose—without inventing a life, hiding authorship, or sanding every sentence into the same polished template.
 
-## What Pantheon does
+---
 
-- Finds generic claims, template-like structure, repeated transitions, weak reasoning, and inflated language.
-- Rebuilds the draft around the writer's own facts, examples, choices, uncertainty, and tone.
-- Preserves meaning, factual support, quotations, numbers, names, citations, and legitimate dialect or regional language.
-- Treats words such as `delve`, `robust`, and `transformative` as prompts for review—not forbidden words.
-- Gives a polished revision first, then a short note explaining substantive edits when useful.
+## The Pantheon promise
 
-## What Pantheon will not do
+Good writing is more than clean grammar. It carries evidence, a point of view, a sense of proportion, and a reader in mind. Pantheon is a reusable skill for the moments when an AI draft feels generic, overly glossy, or unlike its author.
 
-Pantheon does not promise a detector score or teach ways to evade AI detection, remove watermarks, hide authorship, invent personal experiences, fabricate citations, or violate academic and workplace policies. A detector result is not a measure of writing quality or proof of authorship.
+| You bring | Pantheon helps protect and strengthen |
+| --- | --- |
+| Real facts, notes, decisions, and limits | Accuracy, citations, names, numbers, and required terms |
+| A sample of how you actually write | Tone, cadence, directness, and legitimate regional language |
+| A reader and a purpose | Structure, clarity, relevance, and the right level of detail |
+| Your own judgment | Specific claims, honest uncertainty, and a defensible point of view |
 
-## Install in one step (recommended)
+### What changes—and what must not
 
-This method works with **Codex, Claude Code, Hermes Agent, and OpenClaw**. It needs Node.js, which many developer tools already install. Open a terminal, paste this command, and press Enter:
+| Refine | Preserve |
+| --- | --- |
+| Empty intensifiers, repetitive transitions, stock phrasing, vague claims, and decorative conclusions | Meaning, evidence, quotations, citations, disclosures, constraints, and the author’s real experience |
+
+Pantheon treats words such as `delve`, `robust`, or `transformative` as a reason to examine the sentence, not as a forbidden-word list. Human writing is not a punctuation trick or a blacklist.
+
+## See the difference
+
+**Before — polished, but anonymous**
+
+> This transformative initiative represents a pivotal opportunity to leverage collaboration and drive meaningful outcomes across the organization.
+
+**After — grounded, but still professional**
+
+> The new hand-off gives support and product one shared queue. It should shorten the time customers wait for an answer, but we still need to test it with the evening team.
+
+The second version works only because it contains usable information: a concrete change, a likely effect, and an honest limit. **If those details are not real, Pantheon should ask for them—not make them up.**
+
+## Try it in one message
+
+Paste this into Codex, Claude Code, Hermes Agent, or OpenClaw after installing:
+
+```text
+Use the humanize-ai-writing skill.
+
+Audience: [who will read this]
+Purpose: [what they need to understand or do]
+Voice: [e.g., direct, warm, precise]
+Non-negotiables: preserve every number, citation, and factual claim.
+
+Revise this draft so it is specific and natural. Do not add experiences,
+facts, or certainty that I did not provide. Explain any substantive change.
+
+[paste draft]
+```
+
+### Three good ways to use Pantheon
+
+| Situation | Ask Pantheon to… |
+| --- | --- |
+| A client email sounds stiff | Keep the facts and your direct tone; make the request clearer. |
+| An article feels assembled from templates | Audit each generic passage as **keep**, **replace**, or **cut**, then revise only with supportable detail. |
+| You need a consistent personal voice | Compare the draft with two real writing samples and explain where the voice shifted. |
+
+> [!TIP]
+> A short voice sample and real context are more valuable than a long list of “AI words” to avoid.
+
+---
+
+## Install
+
+### One command for every supported tool
+
+Works with **Codex, Claude Code, Hermes Agent, and OpenClaw**. Open a terminal, paste this command, then press Enter:
 
 ```bash
 npx skills add bunnyputih/pantheon --skill humanize-ai-writing --global --agent codex --agent claude-code --agent hermes-agent --agent openclaw --copy
 ```
 
-When asked, choose **Copy** and confirm the installation. Close and reopen your AI tool afterwards.
+When prompted, choose **Copy** and confirm. Then close and reopen your AI tool.
 
-Want it in only one tool? Replace the four `--agent …` parts with one of these:
+<details>
+<summary><strong>Install in only one tool</strong></summary>
 
-| Tool | Use this part |
+Replace the four `--agent …` parts above with one of these:
+
+| Tool | Add this |
 | --- | --- |
 | Codex | `--agent codex` |
 | Claude Code | `--agent claude-code` |
 | Hermes Agent | `--agent hermes-agent` |
 | OpenClaw | `--agent openclaw` |
 
-For example, to install only in Codex:
+For Codex only:
 
 ```bash
 npx skills add bunnyputih/pantheon --skill humanize-ai-writing --global --agent codex --copy
 ```
 
-The command uses the open-source [Skills CLI](https://github.com/vercel-labs/skills). It downloads the skill from this repository and places it in the correct folder for the selected tool.
+</details>
 
-## No-terminal installation
+<details>
+<summary><strong>No terminal? Install from a ZIP</strong></summary>
 
-If you do not want to run a command, use this method instead.
-
-1. On this GitHub page, click the green **Code** button, then choose **Download ZIP**.
-2. Open the downloaded ZIP file. You will see a folder named `pantheon`.
-3. Copy the whole `pantheon` folder into the matching folder below. If the parent folders do not exist, create them.
+1. Click the green **Code** button on this page, then **Download ZIP**.
+2. Open the downloaded file and copy the `pantheon` folder.
+3. Paste it into the matching folder below. Create parent folders if needed.
 4. Rename the copied `pantheon` folder to `humanize-ai-writing`.
-5. Close and reopen your AI tool.
+5. Restart your AI tool.
 
-| Tool | Folder to open on Mac/Linux | Folder to open on Windows |
+| Tool | Mac/Linux | Windows |
 | --- | --- | --- |
 | Codex | `~/.codex/skills/` | `C:/Users/YourName/.codex/skills/` |
 | Claude Code | `~/.claude/skills/` | `C:/Users/YourName/.claude/skills/` |
 | Hermes Agent | `~/.hermes/skills/` | `C:/Users/YourName/.hermes/skills/` |
 | OpenClaw | `~/.openclaw/skills/` | `C:/Users/YourName/.openclaw/skills/` |
 
-On a Mac, you can open a hidden folder in Finder by pressing **Command + Shift + G**, pasting the folder path, and pressing Enter. On Windows, paste the path into the File Explorer address bar; replace `YourName` with your Windows account name.
+On a Mac, press **Command + Shift + G** in Finder, paste the folder path, then press Enter. On Windows, paste the path into File Explorer’s address bar and replace `YourName` with your account name.
 
-After copying, check that this file exists:
+Check that this file exists when you finish:
 
 ```text
 humanize-ai-writing/SKILL.md
 ```
 
-## Use Pantheon
+</details>
 
-Start a new chat in your AI tool and write a request such as:
-
-```text
-Use the humanize-ai-writing skill to revise this client email.
-Keep the facts and my direct tone. Make the request clearer without adding anything I did not say.
-
-[paste your draft]
-```
-
-Other useful requests:
-
-- “Audit this article for generic AI-style writing. Mark each item keep, replace, or cut.”
-- “Make this project update sound like me. Here are two past updates as voice samples.”
-- “Improve the flow of this academic paragraph, but preserve every citation and claim.”
-- “Turn these notes into a clear announcement for parents. Ask before adding personal details.”
-
-The more real context you provide—audience, purpose, a short voice sample, facts you can stand behind—the better Pantheon can help.
-
-## Updating Pantheon
-
-Run the same command again whenever a new version is published:
-
-```bash
-npx skills update humanize-ai-writing --global
-```
-
-For OpenClaw's native installer, you can also run:
+Pantheon uses the open-source [Skills CLI](https://github.com/vercel-labs/skills) for the command-line install. For OpenClaw’s native Git installer, use:
 
 ```bash
 openclaw skills install git:bunnyputih/pantheon@main --global
 ```
 
-OpenClaw's Git installs are intentionally not tracked by `openclaw skills update`; reinstall the Git source when you want a newer version.
+Git installs are not tracked by `openclaw skills update`; rerun that command when you want the latest version. For Skills CLI installs, use:
 
-## Inside this repository
+```bash
+npx skills update humanize-ai-writing --global
+```
+
+---
+
+## The research behind it
+
+Pantheon translates a **140-paper corpus**—20 relevant sources for every year from 2020 through 2026—into a practical editing workflow. It draws on work in factuality, text style transfer, human evaluation, authorship attribution, AI detection, and human–AI co-writing.
+
+The result is a simple editorial order of operations:
+
+1. **Protect the truth.** Preserve claims, citations, quotations, and constraints.
+2. **Recover the author.** Add only real choices, context, evidence, and uncertainty.
+3. **Shape for the reader.** Improve flow, focus, pacing, and level of detail.
+4. **Review the result.** Check whether the revision sounds like a person with something real to say—not a generic substitute for one.
+
+Read the applied [research guidance](references/research-evidence.md) or inspect the complete, linked [2020–2026 research corpus](references/research-corpus-2020-2026.md).
+
+## Clear boundaries
+
+Pantheon will not:
+
+- promise a detector score or teach detector evasion;
+- remove watermarks or hide authorship;
+- invent personal experiences, sources, facts, or certainty;
+- override academic, workplace, legal, or publication policies.
+
+Detector results are not a measure of writing quality or proof of authorship. The goal is a better, more responsible draft—not a deceptive one.
+
+## Inside the repository
 
 ```text
 pantheon/
@@ -117,21 +187,12 @@ pantheon/
     └── research-corpus-2020-2026.md  140-paper source corpus
 ```
 
-## Research basis
+## Help Pantheon get better
 
-Pantheon draws from research on text style transfer, factuality, human evaluation, authorship attribution, detector limits, and human–AI co-writing. The full, linked [140-paper corpus](references/research-corpus-2020-2026.md) records 20 relevant sources per year from 2020 through 2026.
+Open an issue if you find a weak recommendation, a missing text type, a research correction, or an awkward outcome. Include the audience, the task, and a short **de-identified** example when possible.
 
-Key implications for practice:
-
-- Human writing cannot be reduced to a blacklist of words or punctuation marks.
-- Voice is strongest when it comes from an author's real evidence, choices, and context.
-- The safest revision protects semantic and factual fidelity before changing style.
-- Detector scores are unstable across genres, languages, models, and degrees of editing.
+If Pantheon helps you keep your voice while working with AI, a star helps the next writer find it. ★
 
 ## Safety and privacy
 
-Only install skills from sources you trust. Before using Pantheon with private material, check your AI tool's privacy settings and your organization's policy. Do not paste confidential, regulated, or personal information into any service unless you are authorized to do so.
-
-## Contributing
-
-Suggestions and corrections are welcome. Please open an issue with the text type, the problem you noticed, and a short example with sensitive information removed.
+Install only from sources you trust. Before sharing private material, check your AI tool’s privacy settings and your organization’s policy. Do not paste confidential, regulated, or personal information into a service unless you are authorized to do so.
