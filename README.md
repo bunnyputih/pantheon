@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/pantheon-resume-demo-v6.svg" width="900" alt="Animated comparison of a generic AI resume bullet and a specific Pantheon-assisted bullet based on supplied work details.">
+  <img src="assets/pantheon-resume-demo-v7.svg" width="900" alt="Animated comparison of a generic AI resume bullet and a specific Pantheon-assisted bullet based on supplied work details.">
 </p>
 
 > **A five-second resume demo:** Pantheon does not invent achievements. It asks for—or works from—real details, then turns them into a stronger, more readable career story.
