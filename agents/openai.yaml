@@ -1,4 +1,4 @@
 interface:
-  display_name: "Pantheon"
-  short_description: "Humanize AI drafts with grounded authorial voice"
-  default_prompt: "Use $humanize-ai-writing to revise this AI-assisted draft in my natural voice."
+  display_name: "Pantheon Resume Voice"
+  short_description: "Truthful, tailored AI-assisted resume writing"
+  default_prompt: "Use $humanize-ai-writing to improve my resume using only the experience I provide."
