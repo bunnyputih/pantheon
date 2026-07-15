@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/pantheon-coffee-demo-v2.svg" width="550" alt="Animated comparison: a generic answer to ‘Why do you like coffee?’ beside a Pantheon-assisted answer based on an author-supplied detail.">
+  <img src="assets/pantheon-coffee-demo-v3.svg" width="550" alt="Animated comparison: a generic answer to ‘Why do you like coffee?’ beside a Pantheon-assisted answer based on an author-supplied detail.">
 </p>
 
 > **A 5-second demo:** Pantheon does not invent a personality or promise detector evasion. It asks for a real detail, then uses that detail to make the writing more specific and useful.
