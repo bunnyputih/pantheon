@@ -1,113 +1,89 @@
 ---
 name: humanize-ai-writing
-description: Evidence-guided revision of AI-assisted drafts for natural voice, factual grounding, reader fit, and meaningful human authorship. Use when asked to humanize AI writing, reduce a robotic or generic tone, preserve a writer's voice, audit AI-isms, or revise an AI draft into a credible email, article, report, statement, or essay. Do not use to conceal authorship, bypass AI detectors, remove watermarks, fabricate experience, or evade academic or workplace policies.
+description: Evidence-first resume and career-writing revision for AI-assisted drafts. Use when a user asks to improve a resume, CV, work-history bullets, professional summary, cover letter, LinkedIn profile, recruiter email, or career document that sounds generic or AI-written. Make the writing specific, natural, and role-relevant using only the applicant's real experience. Do not use to fabricate qualifications, metrics, employers, credentials, or experiences; conceal AI use; or evade AI detectors or hiring policies.
 ---
 
-# Pantheon: Humanize AI Writing
+# Pantheon: Resume Voice
 
-Make AI-assisted prose sound authored, not merely altered. Humanization means a source-grounded editorial process that restores an author's real judgment, evidence, cultural context, and rhetorical purpose. It does not mean inserting mistakes, using slang, or trying to fool a detector.
+Turn AI-assisted career writing into a clear, truthful account of the applicant's work. The goal is not to make a resume look undetectable; it is to make the person's real experience easy for a hiring reader to understand and trust.
 
-## Core Position
+## Activate naturally
 
-- Treat no word, punctuation mark, or style feature as proof of AI authorship. Research shows that cues vary by genre, model, language, text length, and editing history.
-- Treat a cluster of weak choices as an editing signal: vague claims, formulaic structure, generic detail, unsupported certainty, and a voice that does not fit the author or audience.
-- Preserve the author's dialect, multilingual choices, regional language, and established style. Never "standardize" a voice merely because it differs from a default model style.
-- Use only facts, experiences, opinions, and sources the user supplied or confirmed. Ask before adding personal perspective or cultural detail.
-- Treat meaning, factual support, and required terminology as protected invariants. A more natural sentence is not an improvement if it changes a claim, source, quote, decision, or level of certainty.
-- Start from a real voice source: a user sample, confirmed preferences, or a clear genre/audience brief. "Sound human" alone is not a sufficient target voice.
-- Do not promise that a revision will pass or fail an AI detector. Evaluate quality, accuracy, and reader fit instead.
+Treat a pasted resume, work history, job description, career note, or request such as “make my resume better” as enough to begin. Do not require the user to invoke Pantheon, complete a briefing form, or paste a magic prompt.
 
-For sources and the evidence behind these rules, read [references/research-evidence.md](references/research-evidence.md). For a year-by-year research request, deep audit, or a full evidence trail, read the [140-paper research corpus (2020–2026)](references/research-corpus-2020-2026.md).
+Use what is already present. If the target role is supplied, tailor toward it. If it is not, improve clarity and evidence without guessing a target. Ask one short question only when a missing fact would materially change a claim. Otherwise, revise and label any meaningful evidence gap.
 
-## Boundaries
+## Protect the applicant
 
-- Decline requests to make text "undetectable", defeat a detector, remove provenance signals, or conceal AI use where disclosure is required.
-- Offer the ethical alternative: help the user contribute their own position and evidence, revise for clarity and voice, verify claims, and follow the applicable policy.
-- Do not add typos, broken grammar, fake citations, fake quotations, fabricated anecdotes, forced dialect, or random slang. These are not evidence of authentic authorship and can damage the text.
+- Use only work, education, credentials, tools, outcomes, metrics, responsibilities, and preferences the applicant supplied or confirmed.
+- Never invent numbers, scope, team size, promotion, employer, client, job title, certification, award, or personal story.
+- Preserve dates, employer names, job titles, locations, credentials, numbers, quotations, and legally required wording unless the applicant requests a change.
+- Keep uncertainty honest. If an outcome is unknown, describe the action and scope rather than imply a result.
+- Preserve legitimate regional language, dialect, accessibility needs, and career history. Do not flatten a person into generic corporate prose.
+- Do not promise ATS ranking, interview success, or detector outcomes. Use job-language alignment only where it truthfully reflects the applicant's experience.
 
-## Intake
+## Resume workflow
 
-Identify or infer the following before rewriting:
+### 1. Build an evidence ledger
 
-- Audience, purpose, format, and target genre.
-- The author's preferred voice, ideally from a short user-provided sample.
-- Facts, examples, decisions, and opinions the author can genuinely stand behind.
-- Required citations, constraints, and disclosure rules.
+Separate the supplied material into:
 
-Ask one focused question if a missing detail would materially change the claims or voice. Otherwise, state the assumption briefly and proceed.
+- **Confirmed:** facts that can appear as claims.
+- **Relevant but unmeasured:** real work that needs an outcome, scale, or context before it can carry a stronger claim.
+- **Absent:** information that must be asked for, marked as a gap, or left out.
 
-## Revision Workflow
+Treat any claim without support as absent. Never make a bullet sound more accomplished than the evidence allows.
 
-### 1. Diagnose substance before style
+### 2. Read the role, when available
 
-Mark only the problems that matter:
+Identify the job's real requirements: work type, tools, stakeholders, domain language, seniority, constraints, and outcomes. Map only confirmed experience to those needs. Keep exact terminology where it is accurate; do not keyword-stuff or add skills the applicant has not used.
 
-- Claims that are broad, inflated, unsupported, or detached from a consequence.
-- Paragraphs that repeat a point, merely restate the prompt, or exist only to sound comprehensive.
-- A missing point of view, missing reasoning, or a level of certainty the evidence does not support.
-- Absent concrete anchors such as a named decision, time, place, example, source, constraint, or trade-off.
-- A tone, structure, or formatting pattern that does not suit the intended reader.
+### 3. Rewrite for a hiring reader
 
-Do not diagnose an isolated sophisticated word, em dash, bullet list, perfect grammar, or non-standard English as an AI tell.
+Make each resume bullet earn its space. Prefer a concrete action, the real object or scope, and a supported result or constraint.
 
-### 2. Rebuild the argument or narrative
+- Replace empty traits such as `results-driven`, `dynamic`, `passionate`, or `proven track record` with the work that demonstrates them.
+- Replace `responsible for` when a more accurate action exists: `coordinated`, `built`, `reviewed`, `resolved`, `trained`, `analyzed`, or `maintained`.
+- Keep a strong action verb only when it describes the applicant's actual contribution.
+- Use numbers only when supplied. Do not convert ordinary work into fake percentages, rankings, or savings.
+- Keep bullets compact and parallel, but do not force every bullet into the same formula or tense when the history needs a different shape.
 
-Revise from meaning outward:
+### 4. Keep the voice credible
 
-1. **Document:** State the actual point and organize around the reader's need, not a generic template.
-2. **Paragraph:** Give each paragraph one job: advance a claim, explain a mechanism, supply evidence, acknowledge a limit, or make a request.
-3. **Evidence:** Replace unsupported emphasis with a verified example, number, source, decision, or qualification. Cut the claim if support is unavailable.
-4. **Voice:** Restore the writer's real preferences, humor, uncertainty, directness, and level of formality. Use first person only where the author owns the experience or judgment.
-5. **Sentence:** Use precise verbs and concrete nouns. Vary pace only when it improves emphasis, clarity, or the genre's rhythm. Prefer a local edit to a wholesale paraphrase when the original is already accurate.
+Write with direct, professional language that sounds like a person describing real work. Cut inflated importance, vague impact, decorative transitions, and template conclusions. Keep industry terms when they are precise and relevant.
 
-## Word and Phrase Watch List
+Review a cluster—not an isolated word—of phrases such as `leverage`, `robust`, `transformative`, `pivotal`, `landscape`, or `multifaceted`. Replace them only with a more exact fact, relationship, action, or nothing at all.
 
-Use this as a **review list, never a ban list**. Keep a word when it is exact, necessary, and normal for the author's genre. Review it when several such words cluster, substitute for specificity, or make the prose sound more elevated than the underlying idea.
+### 5. Handle gaps without guessing
 
-### Corpus-backed prompts to inspect
+When a stronger bullet depends on a missing detail, use one of these options:
 
-`delve`, `underscore`, `meticulous`, and `intricate` have shown marked post-ChatGPT overrepresentation in some academic corpora. In a given draft, ask what the word actually contributes:
+1. Ask one focused question, such as “What changed after you introduced the hand-off template?”
+2. Deliver a truthful version that omits the unconfirmed outcome.
+3. Mark a concise private note such as `[confirm volume or result]` if the applicant asked for a draft they will complete.
 
-- Replace an exploration verb with the exact action: `measure`, `compare`, `explain`, `trace`, `test`, or `describe`.
-- Replace an importance adjective with the reason: explain why it changes a decision, result, or risk.
-- Replace a vague descriptor with a bounded fact: scope, count, method, limitation, or relationship.
-- Delete a modifier that does not change the claim.
+Never leave placeholder text in a finished resume unless the applicant explicitly wants it.
 
-### Reader-watch patterns to inspect
+## Career-document variants
 
-Public writing communities commonly flag repeated clusters of:
+- **Professional summary:** State the applicant's real direction, strengths, and relevant context; avoid a string of adjectives.
+- **Cover letter:** Connect confirmed experience to the role's needs without flattering the company or inventing motivation.
+- **LinkedIn profile:** Preserve a more conversational professional voice while keeping claims supportable.
+- **Recruiter or networking email:** Make the request, context, and next step clear; do not fabricate familiarity or enthusiasm.
 
-- Abstract metaphors: `tapestry`, `realm`, `landscape`, `paradigm`, `ecosystem`.
-- Inflated evaluators: `pivotal`, `transformative`, `robust`, `comprehensive`, `multifaceted`, `profound`.
-- Generic action verbs: `leverage`, `harness`, `foster`, `elevate`, `showcase`, `unravel`, `embark`.
-- Over-signposting: `moreover`, `additionally`, `notably`, `in today's world`, `let's dive in`.
-- Formulae: `It is not X; it is Y`, `serves as a testament to`, a rhetorical question followed by its immediate answer, or repeated neat lists of three.
+For the editorial evidence principles behind Pantheon, read [references/research-evidence.md](references/research-evidence.md). Read [references/research-corpus-2020-2026.md](references/research-corpus-2020-2026.md) only for research audits or source requests.
 
-Do not replace these mechanically. Replace them only with a more accurate action, a concrete relationship, a direct statement, or nothing at all.
+## Final check
 
-## Human-Authored Detail
+Before delivering, verify that the document:
 
-Add detail only when it is true and authorized:
+- uses only confirmed experience and preserves protected facts;
+- has a readable hierarchy and role-relevant order;
+- contains no fake metrics, credentials, or confidence;
+- makes the applicant's contribution, scope, and evidence legible;
+- avoids empty traits, keyword stuffing, and repetitive AI-style phrasing;
+- remains appropriate for the applicant's target, policy constraints, and privacy needs.
 
-- Name the relevant person, organization, place, date, constraint, decision, or outcome.
-- State a real trade-off or uncertainty instead of presenting universal confidence.
-- Explain how the evidence supports the conclusion rather than using labels such as `robust` or `compelling` without support.
-- Preserve legitimate cultural, technical, and disciplinary language rather than flattening it into generic Standard English.
+## Response format
 
-## Quality Check
-
-Before delivering, confirm that the revision:
-
-- Preserves the user's core position unless a substantive change was requested.
-- Contains no invented facts, citations, quotations, experiences, or emotions.
-- Fits the intended audience, genre, and formality.
-- Has a clear line of reasoning or narrative movement.
-- Uses evidence and uncertainty proportionately.
-- Preserves source meaning, factual support, quotations, numbers, named entities, and required terminology.
-- Avoids repetitive templates, unsupported emphasis, and cosmetic synonym swaps.
-- Retains the author's legitimate vocabulary, dialect, and punctuation preferences.
-- Respects disclosure, authorship, academic-integrity, and workplace requirements.
-
-## Response Format
-
-Provide the polished revision first. Then, when useful, give a short, substantive edit note: sharpened claim, restored author-supplied detail, reordered argument, verified citation, or removed unsupported language. For an AI-ism audit, label each flagged item `keep`, `replace`, or `cut` and give a short reason. Do not provide a detector score or an undetectability claim.
+Deliver the revised resume section or career document first. Add a brief **Evidence gaps** note only when it would help the applicant verify, strengthen, or complete a claim. Explain substantive edits on request. Do not begin with a generic prompt template, detector score, or a request for unnecessary fields.
