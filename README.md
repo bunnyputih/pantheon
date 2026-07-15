@@ -1,113 +1,97 @@
 # Pantheon
 
 <p align="center">
-  <strong>Your voice, better formed.</strong><br>
-  An evidence-guided skill for turning AI-assisted drafts into writing that sounds considered, specific, and recognizably yours.
+  <strong>Your work. Your proof. Your resume.</strong><br>
+  A truthful, resume-first skill for turning AI-assisted career writing into something specific, clear, and recognizably yours.
 </p>
 
 <p align="center">
-  <a href="#the-pantheon-promise">The promise</a> ·
-  <a href="#try-it-in-one-message">Try it</a> ·
+  <a href="#how-pantheon-works">How it works</a> ·
+  <a href="#use-it-naturally">Use it naturally</a> ·
   <a href="#install">Install</a> ·
-  <a href="#openclaw-step-by-step">OpenClaw</a> ·
-  <a href="#hermes-agent-step-by-step">Hermes</a> ·
-  <a href="#the-research-behind-it">Research</a>
+  <a href="#boundaries">Boundaries</a> ·
+  <a href="#research">Research</a>
 </p>
 
 <p align="center">
-  <img src="assets/pantheon-coffee-demo-v5.svg" width="900" alt="Animated comparison: a generic answer to ‘Why do you like coffee?’ beside a Pantheon-assisted answer based on an author-supplied detail.">
+  <img src="assets/pantheon-resume-demo-v6.svg" width="900" alt="Animated comparison of a generic AI resume bullet and a specific Pantheon-assisted bullet based on supplied work details.">
 </p>
 
-> **A 5-second demo:** Pantheon does not invent a personality or promise detector evasion. It asks for a real detail, then uses that detail to make the writing more specific and useful.
+> **A five-second resume demo:** Pantheon does not invent achievements. It asks for—or works from—real details, then turns them into a stronger, more readable career story.
 
-> **Pantheon does not make writing “less detectable.” It makes authorship more present.**
->
-> Bring the facts, judgment, examples, and rough edges that belong to you. Pantheon helps an AI assistant shape them into clear, credible prose—without inventing a life, hiding authorship, or sanding every sentence into the same polished template.
+## How Pantheon works
 
----
+Pantheon is not a prompt script to memorize. Once installed, it becomes a career-writing ability your AI assistant can use whenever you paste a resume, CV, work history, job description, cover letter, LinkedIn draft, or recruiter email.
 
-## The Pantheon promise
+It starts with the evidence you already have, then improves the writing around it.
 
-Good writing is more than clean grammar. It carries evidence, a point of view, a sense of proportion, and a reader in mind. Pantheon is a reusable skill for the moments when an AI draft feels generic, overly glossy, or unlike its author.
-
-| You bring | Pantheon helps protect and strengthen |
+| You provide | Pantheon does |
 | --- | --- |
-| Real facts, notes, decisions, and limits | Accuracy, citations, names, numbers, and required terms |
-| A sample of how you actually write | Tone, cadence, directness, and legitimate regional language |
-| A reader and a purpose | Structure, clarity, relevance, and the right level of detail |
-| Your own judgment | Specific claims, honest uncertainty, and a defensible point of view |
+| A resume or a few work-history notes | Clarifies actions, scope, and proof without making up results. |
+| A job description | Matches confirmed experience to the role's real requirements. |
+| An old bullet that sounds generic | Rewrites it in direct, professional language that still means the same thing. |
+| A missing result or metric | Asks one useful question—or leaves the claim modest and truthful. |
 
-### What changes—and what must not
+## Use it naturally
 
-| Refine | Preserve |
-| --- | --- |
-| Empty intensifiers, repetitive transitions, stock phrasing, vague claims, and decorative conclusions | Meaning, evidence, quotations, citations, disclosures, constraints, and the author’s real experience |
+Paste your resume and ask for help in your own words. That is enough.
 
-Pantheon treats words such as `delve`, `robust`, or `transformative` as a reason to examine the sentence, not as a forbidden-word list. Human writing is not a punctuation trick or a blacklist.
+> “Here is my resume. Make it clearer for product-support roles.”
 
-## See the difference
+> “This bullet sounds like AI. Keep it truthful but make it stronger.”
 
-**Before — polished, but anonymous**
+> “I am applying for this role. Which parts of my experience are genuinely relevant?”
 
-> This transformative initiative represents a pivotal opportunity to leverage collaboration and drive meaningful outcomes across the organization.
+No audience form. No voice worksheet. No magic wording. If a job post is available, include it; if it is not, Pantheon can still improve the resume you have.
 
-**After — grounded, but still professional**
+### A truthful before-and-after
 
-> The new hand-off gives support and product one shared queue. It should shorten the time customers wait for an answer, but we still need to test it with the evening team.
+**Notes supplied by the applicant**
 
-The second version works only because it contains usable information: a concrete change, a likely effect, and an honest limit. **If those details are not real, Pantheon should ask for them—not make them up.**
+- Worked on a six-person support team.
+- Created a shared hand-off template.
+- Used feedback from the evening shift.
+- Did not measure the outcome.
 
-## Try it in one message
+**Generic AI version**
 
-Paste this into Codex, Claude Code, Hermes Agent, or OpenClaw after installing:
+> Results-driven support professional who leveraged collaboration to deliver transformative customer outcomes.
 
-```text
-Use the humanize-ai-writing skill.
+**Pantheon version**
 
-Audience: [who will read this]
-Purpose: [what they need to understand or do]
-Voice: [e.g., direct, warm, precise]
-Non-negotiables: preserve every number, citation, and factual claim.
+> Created a shared hand-off template for a six-person support team, incorporating feedback from the evening shift.
 
-Revise this draft so it is specific and natural. Do not add experiences,
-facts, or certainty that I did not provide. Explain any substantive change.
+The second version is stronger because it is specific—and it does not pretend there is a metric or outcome the applicant never provided.
 
-[paste draft]
-```
+## What Pantheon improves
 
-### Three good ways to use Pantheon
+- Resume and CV bullets
+- Professional summaries
+- Role-specific resume tailoring
+- Cover letters
+- LinkedIn profiles
+- Recruiter and networking emails
 
-| Situation | Ask Pantheon to… |
-| --- | --- |
-| A client email sounds stiff | Keep the facts and your direct tone; make the request clearer. |
-| An article feels assembled from templates | Audit each generic passage as **keep**, **replace**, or **cut**, then revise only with supportable detail. |
-| You need a consistent personal voice | Compare the draft with two real writing samples and explain where the voice shifted. |
-
-> [!TIP]
-> A short voice sample and real context are more valuable than a long list of “AI words” to avoid.
-
----
+Pantheon checks generic language such as `results-driven`, `leverage`, `pivotal`, or `transformative`, but it does not use a blacklist. It keeps a word when it is accurate and useful; it changes it only when a clearer fact, action, or detail is available.
 
 ## Install
 
-Choose one route: the universal command below for several tools, or the dedicated **OpenClaw** and **Hermes Agent** guides if you use one of those tools only.
+Install once, restart your AI tool, then use it whenever you work on a career document.
 
-### One command for every supported tool
-
-Works with **Codex, Claude Code, Hermes Agent, and OpenClaw**. Open a terminal, paste this command, then press Enter:
+### One command for Codex, Claude Code, Hermes Agent, and OpenClaw
 
 ```bash
 npx skills add bunnyputih/pantheon --skill humanize-ai-writing --global --agent codex --agent claude-code --agent hermes-agent --agent openclaw --copy
 ```
 
-When prompted, choose **Copy** and confirm. Then close and reopen your AI tool.
+When prompted, choose **Copy** and confirm. Close and reopen your AI tool when it finishes.
 
 <details>
-<summary><strong>Install in only one tool</strong></summary>
+<summary><strong>Install in one tool only</strong></summary>
 
-Replace the four `--agent …` parts above with one of these:
+Use the same command with just one agent flag:
 
-| Tool | Add this |
+| Tool | Flag |
 | --- | --- |
 | Codex | `--agent codex` |
 | Claude Code | `--agent claude-code` |
@@ -125,11 +109,10 @@ npx skills add bunnyputih/pantheon --skill humanize-ai-writing --global --agent 
 <details>
 <summary><strong>No terminal? Install from a ZIP</strong></summary>
 
-1. Click the green **Code** button on this page, then **Download ZIP**.
-2. Open the downloaded file and copy the `pantheon` folder.
-3. Paste it into the matching folder below. Create parent folders if needed.
-4. Rename the copied `pantheon` folder to `humanize-ai-writing`.
-5. Restart your AI tool.
+1. Click **Code** on this repository, then choose **Download ZIP**.
+2. Open the download and copy the `pantheon` folder.
+3. Paste it into the skills folder for your tool, then rename the copied folder to `humanize-ai-writing`.
+4. Restart the tool.
 
 | Tool | Mac/Linux | Windows |
 | --- | --- | --- |
@@ -138,124 +121,81 @@ npx skills add bunnyputih/pantheon --skill humanize-ai-writing --global --agent 
 | Hermes Agent | `~/.hermes/skills/` | `C:/Users/YourName/AppData/Local/hermes/skills/` |
 | OpenClaw | `~/.openclaw/skills/` | `C:/Users/YourName/.openclaw/skills/` |
 
-On a Mac, press **Command + Shift + G** in Finder, paste the folder path, then press Enter. On Windows, paste the path into File Explorer’s address bar and replace `YourName` with your account name.
-
-Check that this file exists when you finish:
-
-```text
-humanize-ai-writing/SKILL.md
-```
+The finished folder must contain `humanize-ai-writing/SKILL.md`.
 
 </details>
 
-Pantheon uses the open-source [Skills CLI](https://github.com/vercel-labs/skills) for the universal command-line install.
+Pantheon uses the open-source [Skills CLI](https://github.com/vercel-labs/skills) for the universal installer.
 
-### OpenClaw, step by step
+### OpenClaw
 
-Use this native method when Pantheon should be available to every local OpenClaw agent on this computer.
+Install for all local OpenClaw agents:
 
 ```bash
 openclaw skills install git:bunnyputih/pantheon@main --global
 ```
 
-1. Open a terminal on the machine running OpenClaw and paste the command above.
-2. Confirm the skill is ready:
+Confirm it is ready:
 
-   ```bash
-   openclaw skills list
-   ```
+```bash
+openclaw skills list
+```
 
-   Look for `humanize-ai-writing`.
+Look for `humanize-ai-writing`. Start a new conversation, paste your resume, and ask naturally—for example, “Make these bullets clear and truthful for a customer-success role.”
 
-3. Start a new OpenClaw conversation (or send `/new`), then try:
+To install only in the current workspace, remove `--global`. See the official [OpenClaw Skills guide](https://github.com/openclaw/openclaw/blob/main/docs/tools/skills.md) for advanced workspace settings.
 
-   ```text
-   /humanize-ai-writing Revise this message for clarity and natural voice. Preserve every fact and do not invent details.
-   ```
+### Hermes Agent
 
-`--global` installs the skill into OpenClaw’s shared skills folder, so all local agents can use it. To install only for the current workspace, remove `--global`. If a multi-agent setup uses an explicit skills allowlist, add `humanize-ai-writing` to that agent’s allowed skills.
-
-Git installs are intentionally not tracked by `openclaw skills update`; run the same Git command again whenever you want a newer Pantheon version. See the official [OpenClaw Skills guide](https://github.com/openclaw/openclaw/blob/main/docs/tools/skills.md) for advanced workspace and agent settings.
-
-### Hermes Agent, step by step
-
-If Hermes Agent is not installed yet, use its [official installation guide](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/). Then open a terminal and run:
+Install Pantheon with Hermes:
 
 ```bash
 hermes skills install https://raw.githubusercontent.com/bunnyputih/pantheon/main/SKILL.md
 ```
 
-This native Hermes command installs Pantheon, including the research reference files it uses.
+Confirm it is ready:
 
-1. Confirm it appears in Hermes:
+```bash
+hermes skills list
+```
 
-   ```bash
-   hermes skills list
-   ```
+Look for `humanize-ai-writing`. Start a new session, paste your resume or job post, and ask for the help you need. Add `--now` to the install command if the current session should see the skill immediately.
 
-   Look for `humanize-ai-writing`.
+See the official [Hermes Skills guide](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/) for more options.
 
-2. Start a new Hermes session (or run `/reset` in chat), then use Pantheon directly:
+### Updates
 
-   ```text
-   /humanize-ai-writing Make this announcement sound like me. Keep the facts and give me a short explanation of any substantive edit.
-   ```
-
-3. To make a just-installed skill available in the current session, add `--now` to the install command. To check for future upstream changes, run `hermes skills check`, then `hermes skills update` when Hermes reports an update.
-
-Hermes stores skills in `~/.hermes/skills/` on macOS, Linux, and WSL. Native Windows Hermes stores them in `%LOCALAPPDATA%\hermes\skills\`. Read the official [Hermes Skills guide](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/) for more options.
-
-### Keep Pantheon up to date
-
-For Skills CLI installs, use:
+For a Skills CLI installation:
 
 ```bash
 npx skills update humanize-ai-writing --global
 ```
 
----
+For an OpenClaw Git install, run the original install command again when you want the latest version.
 
-## The research behind it
-
-Pantheon translates a **140-paper corpus**—20 relevant sources for every year from 2020 through 2026—into a practical editing workflow. It draws on work in factuality, text style transfer, human evaluation, authorship attribution, AI detection, and human–AI co-writing.
-
-The result is a simple editorial order of operations:
-
-1. **Protect the truth.** Preserve claims, citations, quotations, and constraints.
-2. **Recover the author.** Add only real choices, context, evidence, and uncertainty.
-3. **Shape for the reader.** Improve flow, focus, pacing, and level of detail.
-4. **Review the result.** Check whether the revision sounds like a person with something real to say—not a generic substitute for one.
-
-Read the applied [research guidance](references/research-evidence.md) or inspect the complete, linked [2020–2026 research corpus](references/research-corpus-2020-2026.md).
-
-## Clear boundaries
+## Boundaries
 
 Pantheon will not:
 
-- promise a detector score or teach detector evasion;
-- remove watermarks or hide authorship;
-- invent personal experiences, sources, facts, or certainty;
-- override academic, workplace, legal, or publication policies.
+- fabricate jobs, promotions, degrees, skills, numbers, awards, or outcomes;
+- make a resume “undetectable” or promise an AI-detector result;
+- keyword-stuff a job description or claim tools the applicant has not used;
+- override workplace, hiring, immigration, legal, or disclosure requirements.
 
-Detector results are not a measure of writing quality or proof of authorship. The goal is a better, more responsible draft—not a deceptive one.
+The point is not to look like somebody else. It is to make the work you actually did easy to see.
 
-## Inside the repository
+## Research
 
-```text
-pantheon/
-├── SKILL.md                          The instructions the AI follows
-├── agents/openai.yaml                Codex display metadata
-└── references/
-    ├── research-evidence.md          Applied research guidance
-    └── research-corpus-2020-2026.md  140-paper source corpus
-```
+Pantheon applies research-led principles from factuality, authorship, AI-assisted writing, human evaluation, and text style. In career writing, that means protecting the applicant's facts first, then improving relevance, structure, and voice.
 
-## Help Pantheon get better
+Read the applied [research guidance](references/research-evidence.md) or the full [2020–2026 research corpus](references/research-corpus-2020-2026.md).
 
-Open an issue if you find a weak recommendation, a missing text type, a research correction, or an awkward outcome. Include the audience, the task, and a short **de-identified** example when possible.
+## Help Pantheon grow
 
-If Pantheon helps you keep your voice while working with AI, a star helps the next writer find it. ★
+Open an issue if a resume format, career stage, industry, or language needs better support. Include a short **de-identified** example when possible.
+
+If Pantheon helps someone describe their real work with more confidence and clarity, a star helps the next job seeker find it. ★
 
 ## Safety and privacy
 
-Install only from sources you trust. Before sharing private material, check your AI tool’s privacy settings and your organization’s policy. Do not paste confidential, regulated, or personal information into a service unless you are authorized to do so.
+Resumes contain personal information. Remove contact details, employer-sensitive material, client information, and anything you are not allowed to share before pasting it into an AI service.
